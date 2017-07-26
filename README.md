@@ -7,8 +7,14 @@ This program only filters the output from Words, which unfortunately often inclu
 
 I originally wrote this to find first person verbs in Caesar, although you could find other forms just as easily by changing the regular expressions in lines 21, 24, 72-74.
 
-#Usage
+**Usage**
+
 ./firstperson.py <text> 
 You can use the option --no_clean after the text if you want to prevent the program from deleting the intermediate files, namely first_person.csv, a list of words to be passed to the dictionary and their line numbers, and WWW.txt, which is the raw output from William Whitaker's Words.
 
-This program requires python >= 3.5!
+This program requires python >= 3.5.
+
+
+**LICENSE**
+
+This program is distributed as is without warranty and is made freely availabele to anyone who wishes to use it, for any purpose.
